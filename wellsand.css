@@ -149,7 +149,7 @@ img {
   width: 18px;
   height: 18px;
   margin: -3px -10px 0 10px;
-  background: url("file:///Users/k-yoguchi/Desktop/Web%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.html/WellSand/images/angle-right-solid-white.png") no-repeat;
+  background: url("./angle-right-solid-white.png") no-repeat;
   background-size: contain;
   vertical-align: middle;
   color: #fff;
@@ -175,7 +175,7 @@ img {
 
 /* News -------------------------------------------------- */
 #news {
-	background-image: url(file:///Users/k-yoguchi/Desktop/Web%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.html/WellSand/images/news_bg.png);
+	background-image: url(./news_bg.png);
 	height: 210px;
 	margin-bottom: 4%;
 }
@@ -397,7 +397,7 @@ aside p {
 /* menu  -------------------------------------------------- */
 
 #menu {
-	background-image: url(file:///Users/k-yoguchi/Desktop/Web%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.html/WellSand/images/menu-bg.png);
+	background-image: url(./menu-bg.png);
 	height: 200px;
 	margin-bottom: 6%;
 }
@@ -434,7 +434,7 @@ aside p {
 /* contact  -------------------------------------------------- */
 
 #contact {
-	background-image: url(file:///Users/k-yoguchi/Desktop/Web%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3.html/WellSand/images/contact-bg.png);
+	background-image: url(./contact-bg.png);
 	min-height: 100vh;
 }
 
