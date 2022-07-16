@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Well Sand - Contact</title>
+	<meta name="Description" content="キッチンカー「WellSand」のホームページです。">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- viewportの設定｜レスポンシブ対応 -->
+		  
+<!-- CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/wellsand.css">
+	
+<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="manifest" href="images/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+</head>
+
+<body>
+    <header class="header">
+      <!-- ヘッダーロゴ -->
+      <div class="logo">
+		  <img src="images/wellsand-logo-cutout.png" alt="">
+		</div>
+    
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="nav">
+    
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+    
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+    
+        <!-- メニュー -->
+        <nav class="nav_content">
+          <ul class="nav_list">
+            <li class="nav_item"><a href="wellsand.html">TOP</a></li>
+            <li class="nav_item"><a href="news.html">NEWS</a></li>
+            <li class="nav_item"><a href="menu.html">MENU</a></li>
+            <li class="nav_item"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+   
+      </div>
+    </header>
+	<div id="contact" class="big-bg">	
+		<div class="wrapper">
+			<h2 class="page-title">Contact</h2>
+			<form action="#">
+				<div>
+					<label for="name">お名前</label>
+					<input type="text" id="name" name="your-name">
+				</div>
+				<div>
+					<label for="email">メールアドレス</label>
+					<input type="email" id="email" name="your-email">
+				</div>
+				<div>
+					<label for="message">メッセージ</label>
+					<textarea id="message" name="your-message"></textarea>
+				</div>
+				
+				<input type="submit" class="button" value="送信">
+			</form>
+			
+		</div><!-- /.wrapper -->
+	</div><!-- /.contact -->
+	
+	<!--不要 ↓
+	<!--<section id="location">
+		<div class="wrapper">
+			<div class="location-info">
+				<h3 class="sub-title">出店場所 6/18(土)</h3>
+				<p>住所：和歌山県橋本市胡麻生1085<br>電話：090-XXXX-XXXX<br>営業時間：10:00~19:00</p>
+			</div><!-- location-info -->
+	<!--		<div class="location-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3294.3922651665307!2d135.6128668!3d34.340493499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6006d7d49186e755%3A0xa6b1a402118c8d77!2screperie%20PLUME!5e0!3m2!1sen!2sjp!4v1655342168836!5m2!1sen!2sjp" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div> location-map -->
+
+		</div><!-- wrapper -->
+	
+	</section><!-- #location -->
+	
+	<footer>
+		<div class="wrapper">
+			<p><small>&copy; 2022 WellSand</small></p>
+		</div>
+	
+	</footer>	
+</body>
+</html>
