@@ -203,7 +203,7 @@ footer p {
 .news-contents {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 
@@ -337,7 +337,7 @@ aside p {
 		padding-top: 45px;
 	}
 	aside {
-		margin-top: 60px;
+		margin-top: 30px;
 	}
 	.post-info {
 		margin-bottom: 30px;
